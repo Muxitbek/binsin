@@ -1,0 +1,6 @@
+@mixin styleText ($color, $fontsize, $fontweight, $lineheight){
+    color: $color;
+    font-size: $fontsize;
+    font-weight: $fontweight;
+    line-height: $lineheight;
+}
