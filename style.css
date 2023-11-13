@@ -4,19 +4,9 @@ header {
   background-size: cover;
 }
 
-body {
-  font-family: "Playfair Display", serif;
-}
-
 * {
   margin: 0;
   padding: 0;
-}
-
-.cont {
-  max-width: 1300px;
-  margin: 0 auto;
-  border: 3px solid red;
 }
 
 a {
@@ -28,21 +18,23 @@ a {
   gap: 60px;
 }
 
-.btn {
+.ul2 {
   display: flex;
-  gap: 62px;
+  gap: 60px;
   align-items: center;
 }
 
 nav {
   display: flex;
-  align-items: center;
+  max-width: 1800px;
+  border: 2px solid red;
+  margin: 0 auto;
   justify-content: space-between;
-  margin-top: 20px;
-  padding: 0px 30px;
+  padding-top: 20px;
+  align-items: center;
 }
 
-.btn2 {
+.li2 {
   background-color: #F9C06A;
   border-radius: 24px;
   width: 100px;
@@ -50,4 +42,99 @@ nav {
   display: inline-block;
   display: grid;
   place-items: center;
+}
+
+.cont1 {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-top: 160px;
+}
+
+.h22 {
+  width: 549px;
+  height: 410px;
+  color: #FFF;
+  font-family: Clicker Script;
+  font-size: 325px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.h21 {
+  width: 600px;
+  height: 22px;
+  color: #FFF;
+  font-family: Playfair Display;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.p1 {
+  width: 780px;
+  height: 152px;
+  color: #FFF;
+  font-family: Playfair Display;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+button {
+  width: 134px;
+  height: 48px;
+  border-radius: 24px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  color: #1E1E1E;
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cont2 {
+  max-width: 1800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.contd {
+  width: 100%;
+  margin-top: 150px;
+}
+
+h3 {
+  height: 72px;
+  color: #603809;
+  font-family: Playfair Display;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.p2 {
+  width: 585px;
+  height: 170px;
+  color: #707070;
+  margin-top: 40px;
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.b2 {
+  border: none;
+  border-radius: 24px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */
